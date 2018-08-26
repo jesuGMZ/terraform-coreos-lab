@@ -1,0 +1,21 @@
+locksmith:
+  # auto-updates with a maintenance window
+  reboot_strategy: reboot
+  window_start: Sun 05:00
+  window_length: 1h
+
+storage:
+  files:
+  # Docker registry auth setup
+  - path: /home/core/.docker/config.json
+    filesystem: root
+    mode: 0644
+    contents:
+      inline: |
+        {
+          "auths": {
+            "registry.gitlab.com": {
+              "auth": "<BASE64_AUTH_TOKEN>"
+            }
+          }
+        }

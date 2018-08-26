@@ -1,0 +1,1 @@
+token = "<DIGITALOCEAN_API_TOKEN>"
