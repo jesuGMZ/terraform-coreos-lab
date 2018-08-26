@@ -8,3 +8,7 @@ It also includes:
     -   Auto-updates with a maintenance window
     -   Docker registry auth set-up
 -   Shows droplet IP as output
+
+Requires:
+
+-    [Terraform Provider for Container Linux Configs](https://github.com/coreos/terraform-provider-ct)

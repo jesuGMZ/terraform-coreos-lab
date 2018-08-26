@@ -11,3 +11,7 @@ It also includes:
 -   Docker manager listen through TCP socket
 -   No need to save manager token, thanks to the manager TCP socket nodes can join invoking manager
 -   Specific CoreOS config for the manager
+
+Requires:
+
+-    [Terraform Provider for Container Linux Configs](https://github.com/coreos/terraform-provider-ct)
