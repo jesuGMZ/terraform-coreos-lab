@@ -9,7 +9,7 @@ variable "distribution" {
 }
 
 variable "ssh_keys" {
-  default = ["5f:b8:0d:ee:77:af:91:b0:53:28:62:f3:e2:93:7a:f2"]
+  default = ["<DIGITALOCEAN_SSHKEY_FINGERPRINT>"]
 }
 
 variable "docker_nodes" {
